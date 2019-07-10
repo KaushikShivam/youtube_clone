@@ -1,4 +1,4 @@
-/* Basic reset styles */
+/*--Basic Reset Styles--*/
 * {
   margin: 0;
   padding: 0;
@@ -11,12 +11,25 @@ html {
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
-  font-weight: 300;
-
+  font-weight: 400;
 }
 
-/* Navigation styles */
+/*--Typography--*/
+h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+/*--Main Container--*/
+main {
+  display: flex;
+  padding: 3rem 8rem;
+}
+
+
+/*--Navigation styles--*/
 .nav--list {
   display: flex;
   list-style: none;
@@ -113,5 +126,25 @@ header{
 
 .video-description{
   display: flex;
+}
+
+/*--Video Recommendations--*/
+
+.video__controls {
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.video__container div:first-child {
+  padding-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.video-box {
+  display: flex;
+  padding: .5rem 1rem;
 }
 
