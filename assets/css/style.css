@@ -7,11 +7,13 @@
 
 html {
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 body {
-  font-size: 62.5%;
+  font-size: 1.5rem;
   font-weight: 300;
+
 }
 
 /* Navigation styles */
