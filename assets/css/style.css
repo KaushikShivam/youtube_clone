@@ -93,7 +93,10 @@ main {
 header{
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
+  margin: 3rem 0;
+  border-bottom: 1px solid #d3d3d3;
+  padding-bottom: 2rem;
+
 }
 
 .video{ 
@@ -112,20 +115,27 @@ header{
 
 }
 
-.video-title{
-  
-}
-
-.video-stats{
-  /* display: flex; */
-}
 
 .nav-video{
   display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+  
+}
+
+.nav-video a{
+ margin-right: 1rem;
+
+}
+
+.nav-video a:last-of-type{
+  margin-right: 0;
 }
 
 .video-description{
   display: flex;
+  border-bottom: 1px solid #d3d3d3;
+  padding-bottom: 2rem;
 }
 
 /*--Video Recommendations--*/
