@@ -53,7 +53,9 @@ body {
   font-size: 1.5rem;
   background-color: white;
   outline: none;
-  margin-left: -2rem;
+  padding: 0.2rem;
+  margin-left: -2px;
+
 }
 
 .nav--right {
@@ -70,3 +72,44 @@ body {
 .nav--right li {
   margin-right: 1rem;
 }
+
+/*--Video Section--*/
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.video{ 
+  position: relative;
+  padding-bottom: 50%;
+  height: 0;
+  
+}
+
+.video iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+.video-title{
+  
+}
+
+.video-stats{
+  /* display: flex; */
+}
+
+.nav-video{
+  display: flex;
+}
+
+.video-description{
+  display: flex;
+}
+
