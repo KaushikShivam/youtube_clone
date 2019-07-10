@@ -1,0 +1,72 @@
+/* Basic reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: auto;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  font-weight: 300;
+}
+
+/* Navigation styles */
+.nav--list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+}
+
+.nav--list i {
+  font-size: 1.5rem;
+}
+
+.nav--left {
+  display: flex;
+  align-items: center;
+}
+
+.nav--left img {
+  width: 5rem;
+  margin-left: 1rem;
+}
+
+.nav--search li {
+  display: flex;
+  align-items: center;
+}
+
+.nav--search input {
+  width: 40rem;
+  height: 2rem;
+  padding-left: 1rem;
+}
+
+.nav--search i {
+  font-size: 1.5rem;
+  background-color: white;
+  outline: none;
+  margin-left: -2rem;
+}
+
+.nav--right {
+  display: flex;
+  align-items: center;
+}
+
+.nav--right img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.nav--right li {
+  margin-right: 1rem;
+}
