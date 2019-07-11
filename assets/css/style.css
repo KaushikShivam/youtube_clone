@@ -197,6 +197,29 @@ header{
 /* FIX: Change the position */
 /*--Comments--*/
 
+.comment__stats{
+  display: flex;
+  margin: 3rem 0;
+}
+
+.comment__stats p{
+  margin-right: 2rem;
+}
+
+.comment__box{
+  display: flex;
+  align-items: center;
+ 
+}
+
+.comment__box input{
+  border: none;
+  border-bottom: 1px solid #d3d3d3;
+  width: 100%;
+  margin-left: 1rem;
+  font-size: 1.4rem;
+}
+
 .comment {
   display: flex;
   margin-top: 3rem;
