@@ -30,7 +30,12 @@ h3 {
 /*--Main Container--*/
 main {
   display: flex;
-  padding: 3rem 8rem;
+  padding: 3rem 3rem;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(96, 96, 96);
 }
 
 
@@ -126,7 +131,6 @@ header{
   left: 0;
   width: 100%;
   height: 100%;
-
 }
 
 
@@ -190,12 +194,19 @@ header{
 
 /*--Video Recommendations--*/
 
+aside{
+  margin-left: 2rem;
+}
+
 .video__controls {
   display: flex;
   justify-content: space-between;
   padding: .5rem 1rem;
+  padding-left: 0; 
   margin-bottom: 1rem;
+  align-content: center;
 }
+
 
 .video__container div:first-child {
   padding-bottom: 1.5rem;
@@ -206,6 +217,20 @@ header{
 .video-box {
   display: flex;
   padding: .5rem 1rem;
+  padding-left: 0;
+}
+
+.video-box__thumbnail{
+  width: 16.8rem;
+  height: 9.4rem;
+  margin-right: 1rem;
+}
+
+.video-box__details p{
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: darkgray;
+  margin: 0.5rem 0;
 }
 
 /* FIX: Change the position */
@@ -239,11 +264,16 @@ header{
   margin-top: 3rem;
 }
 
+.comment p{
+  font-size: 1.4rem;
+}
+
 .comment__display img {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
   margin: 0 .5rem;
+  margin-right: 1.5rem;
 }
 
 .comment__details > * {
@@ -256,4 +286,9 @@ header{
 
 .section__controls > * {
   margin-right: 1.5rem;
+}
+
+.chevron{
+  font-size: 1rem;
+
 }
