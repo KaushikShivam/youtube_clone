@@ -22,6 +22,10 @@ i {
 }
 
 /*--Typography--*/
+h1 {
+  font-size: 2.2rem;
+}
+
 h3 {
   font-size: 1.4rem;
   font-weight: 500;
@@ -121,8 +125,7 @@ header{
 .video{ 
   position: relative;
   padding-bottom: 50%;
-  height: 0;
-  
+  height: 0; 
 }
 
 .video iframe{
@@ -133,6 +136,12 @@ header{
   height: 100%;
 }
 
+.video-stats p {
+  font-size: 1.6rem;
+  color: darkgray;
+  font-weight: rgb(96,96,96);
+  margin-top: 1rem;
+}
 
 .nav-video{
   display: flex;
@@ -141,9 +150,15 @@ header{
   
 }
 
-.nav-video a{
- margin-right: 1rem;
+.nav-video a {
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  font-weight: 500
+}
 
+.nav-video i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
 }
 
 .nav-video a:last-of-type{
@@ -170,12 +185,12 @@ header{
 }
 
 .subscribe-btn{
-  background-color: red;
+  background-color: rgb(204,0,0);
   color: white;
   align-self: flex-start;
   padding: 1rem;
   text-transform: uppercase;
-  width: 25rem;
+  width: 21rem;
 }
 
 .video-creator p{
@@ -207,6 +222,20 @@ aside{
   align-content: center;
 }
 
+.video__controls > * {
+  align-self: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.autoplay {
+  display: flex
+}
+
+.autoplay > * {
+  align-self: center;
+  margin-left: 1rem;
+}
 
 .video__container div:first-child {
   padding-bottom: 1.5rem;
@@ -221,7 +250,7 @@ aside{
 }
 
 .video-box__thumbnail{
-  width: 16.8rem;
+  width: 26.8rem;
   height: 9.4rem;
   margin-right: 1rem;
 }
@@ -285,8 +314,13 @@ aside{
 }
 
 .section__controls > * {
-  margin-right: 1.5rem;
+  margin-right: 1rem;
 }
+
+.section__controls i {
+  font-size: 1.4rem;
+}
+
 
 .chevron{
   font-size: 1rem;
