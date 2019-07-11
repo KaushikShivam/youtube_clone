@@ -194,3 +194,29 @@ header{
   padding: .5rem 1rem;
 }
 
+/* FIX: Change the position */
+/*--Comments--*/
+
+.comment {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.comment__display img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin: 0 .5rem;
+}
+
+.comment__details > * {
+  margin-bottom: 1.5rem;
+}
+
+.comment__details a i {
+  margin-left: 1rem;
+}
+
+.section__controls > * {
+  margin-right: 1.5rem;
+}
