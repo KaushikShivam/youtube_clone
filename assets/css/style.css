@@ -16,6 +16,11 @@ body {
   font-weight: 400;
 }
 
+i {
+  color: rgb(96, 96, 96);
+  font-size: 2.4rem;
+}
+
 /*--Typography--*/
 h3 {
   font-size: 1.4rem;
@@ -30,17 +35,25 @@ main {
 
 
 /*--Navigation styles--*/
+.nav-main {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+  height: 6rem;
+  display: flex;
+  
+}
+
+.nav-main li {
+  margin-right: 2rem;
+}
+
 .nav--list {
   display: flex;
   list-style: none;
   justify-content: space-between;
   padding: 1rem;
   align-items: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
-}
-
-.nav--list i {
-  font-size: 1.5rem;
+  align-self: center;
+  flex: 1
 }
 
 .nav--left {
@@ -49,7 +62,7 @@ main {
 }
 
 .nav--left img {
-  width: 5rem;
+  width: 10rem;
   margin-left: 1rem;
 }
 
@@ -59,17 +72,18 @@ main {
 }
 
 .nav--search input {
-  width: 40rem;
-  height: 2rem;
+  width: 60rem;
+  height: 3rem;
   padding-left: 1rem;
 }
 
 .nav--search i {
-  font-size: 1.5rem;
   background-color: white;
   outline: none;
-  padding: 0.2rem;
-  margin-left: -2px;
+  font-size: 2rem;
+  margin-left: -5rem;
+  background-color: white;
+  border: none;
 
 }
 
@@ -79,13 +93,13 @@ main {
 }
 
 .nav--right img {
-  width: 2rem;
-  height: 2rem;
+  width: 3.2rem;
+  height: 3.2rem;
   border-radius: 50%;
 }
 
 .nav--right li {
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
 /*--Video Section--*/
