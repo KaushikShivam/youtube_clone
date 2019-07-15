@@ -39,7 +39,7 @@ main {
   padding-top: 9rem;
 }
 
-a{
+a {
   text-decoration: none;
   color: rgb(96, 96, 96);
 }
@@ -54,6 +54,10 @@ a{
   position: fixed;
   z-index: 100;
   background-color: white;
+}
+
+.nav-main ul {
+  list-style: none;
 }
 
 .nav-main li {
@@ -139,6 +143,7 @@ header{
   left: 0;
   width: 100%;
   height: 100%;
+  border: none;
 }
 
 .video-stats p {
