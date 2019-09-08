@@ -16,7 +16,7 @@ It uses HTML5 and CSS3.
 
 1. Clone the project to your local directory
 ```
-git clone https://github.com/rociac/forms-project
+git clone https://github.com/KaushikShivam/youtube_clone.git
 ```
 2. Open the index.html file in your browser to view the website in all its glory (Live-server is recommended to view live changes automatically)
 
