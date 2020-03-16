@@ -22,12 +22,14 @@ git clone https://github.com/KaushikShivam/youtube_clone.git
 
 ## Contact
 This template was created in collaboration with Rodolfo and myself
-
 You can contact me at:
-- [Email](shivamkaushikofficial@gmail.com)
-- [Linkedin](https://www.linkedin.com/in/shivam-kaushik-bb8162102/)
+
+- [Portfolio](https://www.shivamkaushik.com)
+- [Email](mailto:shivamkaushikofficial@gmail.com)
+- [Linkedin](https://www.linkedin.com/in/kshivamdev/)
 - [Twitter](https://twitter.com/kShivamDev)
 - [Medium](https://medium.com/@shivamkaushikofficial)
+- [Angellist](https://angel.co/kshivamdev)
 
 You can contact Rodolfo at:
 - [Email](acosta.rodolfo.rca@gmail.com)
